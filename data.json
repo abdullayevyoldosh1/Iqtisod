@@ -1,0 +1,1004 @@
+{
+    "university":  {
+                       "name":  "Termiz Davlat Universiteti",
+                       "faculty":  "Iqtisodiyot Fakulteti",
+                       "address":  "Termiz shahri, Universitet ko\u0027chasi, 43-uy",
+                       "phone":  "+998 76 123 45 67",
+                       "email":  "info@tdu-iqtisod.uz",
+                       "founded":  1992,
+                       "website":  "https://tdu-iqtisod.uz",
+                       "videoEmbedUrl":  "https://www.youtube.com/embed/OjoV6b5yJTU?si=FVFtCEI6W_TuyIkV"
+                   },
+    "stats":  [
+                  {
+                      "icon":  "users",
+                      "value":  "3000+",
+                      "label":  "Talabalar"
+                  },
+                  {
+                      "icon":  "chalkboard-teacher",
+                      "value":  "50+",
+                      "label":  "Professor o'qtuvchilar"
+                  },
+                  {
+                      "icon":  "building",
+                      "value":  "150+",
+                      "label":  "Kafedralar"
+                  },
+                  {
+                      "icon":  "book",
+                      "value":  "8",
+                      "label":  "Umumiy yo'nalishlar"
+                  }
+              ],
+    "features":  [
+                     {
+                         "icon":  "laptop-code",
+                         "title":  "Zamonaviy ta\u0027lim",
+                         "description":  "Eng so\u0027nggi texnologiyalar va usullardan foydalanamiz"
+                     },
+                     {
+                         "icon":  "briefcase",
+                         "title":  "Amaliyot imkoniyatlari",
+                         "description":  "Yirik korxona va banklarda amaliyot"
+                     },
+                     {
+                         "icon":  "globe-asia",
+                         "title":  "Xalqaro hamkorlik",
+                         "description":  "Chetdagi universitetlar bilan almashuv dasturlari"
+                     },
+                     {
+                         "icon":  "handshake",
+                         "title":  "Karyera yordami",
+                         "description":  "Bitiruvchilarga ish topishda yordam"
+                     },
+                     {
+                         "icon":  "flask",
+                         "title":  "Ilmiy tadqiqotlar",
+                         "description":  "Ilmiy loyihalar va grantlar"
+                     },
+                     {
+                         "icon":  "graduation-cap",
+                         "title":  "Malaka oshirish",
+                         "description":  "Doimiy kasbiy rivojlanish"
+                     }
+                 ],
+    "quickLinks":  [
+                       {
+                           "icon":  "history",
+                           "title":  "Tarix",
+                           "description":  "Fakultetimiz tarixi va rivojlanishi",
+                           "link":  "#about"
+                       },
+                       {
+                           "icon":  "book-open",
+                           "title":  "Ta\u0027lim dasturlari",
+                           "description":  "Barcha yo\u0027nalishlar haqida batafsil",
+                           "link":  "#academic"
+                       },
+                       {
+                           "icon":  "calendar-alt",
+                           "title":  "Tadbirlar taqvimi",
+                           "description":  "Yaqin keladigan tadbirlar",
+                           "link":  "#campus"
+                       },
+                       {
+                           "icon":  "calculator",
+                           "title":  "Ballarni hisoblash",
+                           "description":  "O\u0027tish imkoniyatingizni bilib oling",
+                           "link":  "#calculator"
+                       },
+                       {
+                           "icon":  "download",
+                           "title":  "Hujjatlar",
+                           "description":  "Qabul uchun kerakli hujjatlar",
+                           "link":  "#documents"
+                       },
+                       {
+                           "icon":  "question-circle",
+                           "title":  "Ko\u0027p so\u0027raladigan savollar",
+                           "description":  "FAQ bo\u0027limi",
+                           "link":  "#faq"
+                       }
+                   ],
+    "news":  [
+                 {
+                     "id":  1,
+                     "title":  "Yangi o\u0027quv yili boshlanishi",
+                     "date":  "2024-09-01",
+                     "description":  "2024-2025 o\u0027quv yili tantanali ravishda boshlanmoqda. Barcha talabalar 2-sentyabr kuni 9:00 da asosiy binoda bo\u0027lishlari so\u0027ralmoqda.",
+                     "category":  "Tadbirlar",
+                     "image":  "news1.jpg"
+                 },
+                 {
+                     "id":  2,
+                     "title":  "Xalqaro hamkorlik shartnomasi",
+                     "date":  "2024-08-20",
+                     "description":  "Germaniyaning Berlin Iqtisodiyot Universiteti bilan yangi hamkorlik shartnomasi imzolandi. Talabalar almashuv dasturi boshlanmoqda.",
+                     "category":  "Xalqaro",
+                     "image":  "news2.jpg"
+                 },
+                 {
+                     "id":  3,
+                     "title":  "Fan olimpiadasi g\u0027oliblari",
+                     "date":  "2024-08-10",
+                     "description":  "Talabalarimiz respublika iqtisodiyot olimpiadasida 3 oltin, 2 kumush medalni qo\u0027lga kiritdilar.",
+                     "category":  "Yutuqlar",
+                     "image":  "news3.jpg"
+                 },
+                 {
+                     "id":  4,
+                     "title":  "Yangi professorlar",
+                     "date":  "2024-07-25",
+                     "description":  "5 nafar yangi professor fakultetimizga qo\u0027shildi. Ularning ilmiy darajalari doktorlik va nomzodlik.",
+                     "category":  "Xodimlar",
+                     "image":  "news4.jpg"
+                 }
+             ],
+    "programs":  {
+                     "bachelor":  [
+                                      {
+                                          "id":  1,
+                                          "name":  "Iqtisodiyot (tarmoqlar va sohalar bo\u0027yicha)",
+                                          "code":  "60110100",
+                                          "duration":  "4 yil",
+                                          "description":  "Iqtisodiy jarayonlarni tahlil qilish, bashorat qilish va boshqarish ko\u0027nikmalarini shakllantirish. Makro va mikroiqtisodiyot, moliya, statistika, ekonometrika fanlarini o\u0027rganish.",
+                                          "score":  140,
+                                          "seats":  100,
+                                          "form":  "Kunduzgi",
+                                          "department":  "Iqtisodiyot va turizm",
+                                          "subjects":  [
+                                                           "Makroiqtisodiyot",
+                                                           "Mikroiqtisodiyot",
+                                                           "Statistika",
+                                                           "Ekonometrika",
+                                                           "Moliya"
+                                                       ],
+                                          "career":  [
+                                                         "Iqtisodchi",
+                                                         "Tahlilchi",
+                                                         "Mutaxassis",
+                                                         "Menejer"
+                                                     ]
+                                      },
+                                      {
+                                          "id":  2,
+                                          "name":  "Moliya va moliyaviy texnologiyalar",
+                                          "code":  "60110200",
+                                          "duration":  "4 yil",
+                                          "description":  "Zamonaviy moliyaviy tizimlarni boshqarish, moliyaviy risklarni baholash, investitsiyalarni boshqarish ko\u0027nikmalarini o\u0027rgatish.",
+                                          "score":  145,
+                                          "seats":  80,
+                                          "form":  "Kunduzgi",
+                                          "department":  "Moliya va bank ishi",
+                                          "subjects":  [
+                                                           "Moliyaviy menejment",
+                                                           "Investitsiyalar",
+                                                           "Bank ishi",
+                                                           "Sug\u0027urta",
+                                                           "Bozor iqtisodiyoti"
+                                                       ],
+                                          "career":  [
+                                                         "Moliyachi",
+                                                         "Bank xodimi",
+                                                         "Investitsiya menejeri",
+                                                         "Analitik"
+                                                     ]
+                                      },
+                                      {
+                                          "id":  3,
+                                          "name":  "Bank ishi va auditi",
+                                          "code":  "60110300",
+                                          "duration":  "4 yil",
+                                          "description":  "Bank operatsiyalari, kreditlash, audit xizmatlari bo\u0027yicha mutaxassislar tayyorlash. Bank tizimi va moliyaviy hisobotlar tahlili.",
+                                          "score":  135,
+                                          "seats":  70,
+                                          "form":  "Kunduzgi",
+                                          "department":  "Moliya va bank ishi",
+                                          "subjects":  [
+                                                           "Bank operatsiyalari",
+                                                           "Kredit ishi",
+                                                           "Audit",
+                                                           "Moliyaviy hisobot",
+                                                           "Risk menejmenti"
+                                                       ],
+                                          "career":  [
+                                                         "Bank xodimi",
+                                                         "Auditor",
+                                                         "Kredit mutaxassisi",
+                                                         "Risk menejeri"
+                                                     ]
+                                      },
+                                      {
+                                          "id":  4,
+                                          "name":  "Buxgalteriya hisobi va audit",
+                                          "code":  "60110400",
+                                          "duration":  "4 yil",
+                                          "description":  "Buxgalteriya hisobi, soliq hisobi, moliyaviy hisobot tuzish va tahlil qilish ko\u0027nikmalarini shakllantirish.",
+                                          "score":  130,
+                                          "seats":  90,
+                                          "form":  "Kunduzgi",
+                                          "department":  "Buxgalteriya hisobi va audit",
+                                          "subjects":  [
+                                                           "Buxgalteriya hisobi",
+                                                           "Soliq hisobi",
+                                                           "Moliyaviy hisobot",
+                                                           "Xalqaro buxgalteriya standartlari",
+                                                           "Audit"
+                                                       ],
+                                          "career":  [
+                                                         "Buxgalter",
+                                                         "Auditor",
+                                                         "Soliq mutaxassisi",
+                                                         "Moliyaviy hisobchi"
+                                                     ]
+                                      },
+                                      {
+                                          "id":  5,
+                                          "name":  "Tadbirkorlik (biznesni boshqarish)",
+                                          "code":  "60110500",
+                                          "duration":  "4 yil",
+                                          "description":  "Kichik va o\u0027rta biznesni yuritish, loyihalarni boshqarish, marketing strategiyalarini ishlab chiqish ko\u0027nikmalari.",
+                                          "score":  125,
+                                          "seats":  60,
+                                          "form":  "Kunduzgi",
+                                          "department":  "Tadbirkorlik va marketing",
+                                          "subjects":  [
+                                                           "Biznesni boshqarish",
+                                                           "Marketing",
+                                                           "Startaplar",
+                                                           "Loyiha menejmenti",
+                                                           "Innovatsion iqtisodiyot"
+                                                       ],
+                                          "career":  [
+                                                         "Tadbirkor",
+                                                         "Biznes menejeri",
+                                                         "Marketing mutaxassisi",
+                                                         "Loyiha menejeri"
+                                                     ]
+                                      }
+                                  ],
+                     "master":  [
+                                    {
+                                        "id":  1,
+                                        "name":  "Iqtisodiyot nazariyasi",
+                                        "code":  "70110101",
+                                        "duration":  "2 yil",
+                                        "description":  "Ilmiy tadqiqotlar va nazariy bilimlar chuqurlashtirilgan o\u0027qitiladi. Magistratura darajasida ilmiy ishlar olib borish.",
+                                        "score":  65,
+                                        "seats":  30,
+                                        "form":  "Kunduzgi",
+                                        "department":  "Iqtisodiyot va turizm",
+                                        "subjects":  [
+                                                         "Iqtisodiyot nazariyasi",
+                                                         "Ilmiy tadqiqotlar metodologiyasi",
+                                                         "Ekonometrik modellar",
+                                                         "Global iqtisodiyot"
+                                                     ],
+                                        "career":  [
+                                                       "Ilmiy xodim",
+                                                       "Tadqiqotchi",
+                                                       "O\u0027qituvchi",
+                                                       "Ekspert"
+                                                   ]
+                                    },
+                                    {
+                                        "id":  2,
+                                        "name":  "Moliya va kredit",
+                                        "code":  "70110201",
+                                        "duration":  "2 yil",
+                                        "description":  "Moliyaviy bozorlar, bank tizimi, kredit siyosati bo\u0027yicha chuqur bilimlar. Moliyaviy tahlil va prognozlash.",
+                                        "score":  70,
+                                        "seats":  25,
+                                        "form":  "Kunduzgi",
+                                        "department":  "Moliya va bank ishi",
+                                        "subjects":  [
+                                                         "Moliyaviy bozorlar",
+                                                         "Kredit siyosati",
+                                                         "Bank menejmenti",
+                                                         "Moliyaviy tahlil",
+                                                         "Xalqaro moliya"
+                                                     ],
+                                        "career":  [
+                                                       "Moliyaviy analitik",
+                                                       "Bank menejeri",
+                                                       "Kredit eksperti",
+                                                       "Moliyaviy konsultant"
+                                                   ]
+                                    }
+                                ],
+                     "extramural":  [
+                                        {
+                                            "id":  1,
+                                            "name":  "Iqtisodiyot (sirtqi)",
+                                            "code":  "60110101",
+                                            "duration":  "5 yil",
+                                            "description":  "Ishlaydigan talabalar uchun maxsus dastur. O\u0027qish hafta oxirida va kechqurun amalga oshiriladi.",
+                                            "score":  110,
+                                            "seats":  150,
+                                            "form":  "Sirtqi",
+                                            "department":  "Iqtisodiyot va turizm",
+                                            "subjects":  [
+                                                             "Asosiy iqtisodiyot",
+                                                             "Moliya asoslari",
+                                                             "Buxgalteriya hisobi",
+                                                             "Tadbirkorlik",
+                                                             "Statistika"
+                                                         ],
+                                            "career":  [
+                                                           "Iqtisodchi",
+                                                           "Buxgalter",
+                                                           "Menejer",
+                                                           "Mutaxassis"
+                                                       ]
+                                        },
+                                        {
+                                            "id":  2,
+                                            "name":  "Buxgalteriya hisobi (sirtqi)",
+                                            "code":  "60110401",
+                                            "duration":  "5 yil",
+                                            "description":  "Ishlaydiganlar uchun buxgalteriya hisobi va audit yo\u0027nalishi. Amaliy ko\u0027nikmalarga e\u0027tibor qaratilgan.",
+                                            "score":  105,
+                                            "seats":  100,
+                                            "form":  "Sirtqi",
+                                            "department":  "Buxgalteriya hisobi va audit",
+                                            "subjects":  [
+                                                             "Buxgalteriya hisobi",
+                                                             "Soliq hisobi",
+                                                             "Moliyaviy hisobot",
+                                                             "Audit asoslari",
+                                                             "Kompyuterda buxgalteriya"
+                                                         ],
+                                            "career":  [
+                                                           "Buxgalter",
+                                                           "Hisobchi",
+                                                           "Soliq mutaxassisi",
+                                                           "Auditor"
+                                                       ]
+                                        }
+                                    ]
+                 },
+    "departments":  [
+                        {
+                            "id":  1,
+                            "name":  "Iqtisodiyot va turizm",
+                            "head":  "Prof. N. Xolmatov",
+                            "teachers":  15,
+                            "students":  600,
+                            "description":  "Iqtisodiy tahlil va turizm sohasidagi tadqiqotlar. Makroiqtisodiy siyosat, mehnat iqtisodiyoti, turizm iqtisodiyoti bo\u0027yicha ilmiy ishlar olib boriladi.",
+                            "teachersList":  [
+                                                 {
+                                                     "name":  "Prof. Akmal Alimov",
+                                                     "degree":  "Iqtisod fanlari doktori",
+                                                     "specialty":  "Makroiqtisodiyot",
+                                                     "image":  "https://randomuser.me/api/portraits/men/41.jpg",
+                                                     "bio":  "Makroiqtisodiy siyosat va iqtisodiy o\u0027sish modellarini o\u0027rganish bo\u0027yicha 20 yildan ortiq tajribaga ega professor.",
+                                                     "scientificWorks":  [
+                                                                             "Makroiqtisodiy barqarorlik bo\u0027yicha 2 ta monografiya",
+                                                                             "Scopus bazasida indekslangan 18 ta maqola",
+                                                                             "Davlat iqtisodiy dasturlari uchun tahliliy hisobotlar"
+                                                                         ],
+                                                     "achievements":  [
+                                                                          "2023-yil Eng faol professor nominatsiyasi g\u0027olibi",
+                                                                          "Xalqaro iqtisodiy forumda eng yaxshi ma\u0027ruza sovrini",
+                                                                          "3 nafar PhD tadqiqotchiga ilmiy rahbarlik qilgan"
+                                                                      ]
+                                                 },
+                                                 {
+                                                     "name":  "Dots. Murod Mahmudov",
+                                                     "degree":  "Iqtisod fanlari nomzodi",
+                                                     "specialty":  "Mehnat iqtisodiyoti",
+                                                     "image":  "https://randomuser.me/api/portraits/men/52.jpg",
+                                                     "bio":  "Bandlik bozori, ish haqi dinamikasi va mehnat unumdorligi bo\u0027yicha amaliy tadqiqotlar olib boradi.",
+                                                     "scientificWorks":  [
+                                                                             "Mehnat bozori indikatorlari bo\u0027yicha o\u0027quv qo\u0027llanma",
+                                                                             "Respublika jurnallarida 25 dan ortiq ilmiy maqola",
+                                                                             "Hududiy bandlik dasturlari uchun metodik tavsiyalar"
+                                                                         ],
+                                                     "achievements":  [
+                                                                          "2022-yil Yilning eng yaxshi dotsenti mukofoti",
+                                                                          "2 ta xalqaro grant loyihasida ekspert",
+                                                                          "Talabalar olimpiadasida 1-o\u0027rin olgan jamoa murabbiyi"
+                                                                      ]
+                                                 },
+                                                 {
+                                                     "name":  "Dots. Siroj Soliyev",
+                                                     "degree":  "Iqtisod fanlari nomzodi",
+                                                     "specialty":  "Turizm iqtisodiyoti",
+                                                     "image":  "https://randomuser.me/api/portraits/men/37.jpg",
+                                                     "bio":  "Turizm infratuzilmasi iqtisodiy samaradorligini oshirish va hududiy turizmni rivojlantirish masalalarini o\u0027rganadi.",
+                                                     "scientificWorks":  [
+                                                                             "Turizm iqtisodiyoti bo\u0027yicha 1 ta darslik",
+                                                                             "Xalqaro konferensiyalarda 12 ta ma\u0027ruza",
+                                                                             "Mahalliy turizm klasterlari bo\u0027yicha tahliliy maqolalar"
+                                                                         ],
+                                                     "achievements":  [
+                                                                          "2024-yil turizm yo\u0027nalishida innovatsion loyiha muallifi",
+                                                                          "Universitet ilmiy kengashi faxriy yorlig\u0027i sohibi",
+                                                                          "5 ta bitiruv malakaviy ishga ilmiy rahbarlik qilgan"
+                                                                      ]
+                                                 },
+                                                 {
+                                                     "name":  "O\u0027qituvchi Nodir Norboyev",
+                                                     "degree":  "PhD",
+                                                     "specialty":  "Mikroiqtisodiyot",
+                                                     "image":  "https://randomuser.me/api/portraits/men/22.jpg",
+                                                     "bio":  "Raqamli iqtisodiyot va mikroiqtisodiy qarorlar tahlili yo\u0027nalishida yosh tadqiqotchi sifatida faol ishlaydi.",
+                                                     "scientificWorks":  [
+                                                                             "Mikroiqtisodiy modellashtirish bo\u0027yicha 10 ta maqola",
+                                                                             "Talabalar uchun amaliy mashg\u0027ulotlar to\u0027plami",
+                                                                             "Raqamli bozorlar bo\u0027yicha uslubiy qo\u0027llanma"
+                                                                         ],
+                                                     "achievements":  [
+                                                                          "2023-yil yosh olimlar tanlovi finalchisi",
+                                                                          "2 ta startap loyihasiga akademik mentorlik",
+                                                                          "Fakultetning Yilning faol o\u0027qituvchisi nominatsiyasi"
+                                                                      ]
+                                                 },
+                                                 {
+                                                     "name":  "O\u0027qituvchi Dilnoza Ergasheva",
+                                                     "degree":  "PhD",
+                                                     "specialty":  "Ekonometrika",
+                                                     "image":  "https://randomuser.me/api/portraits/women/45.jpg",
+                                                     "bio":  "Ekonometrik tahlil, statistik prognozlash va ma\u0027lumotlar bilan ishlash bo\u0027yicha amaliy kurslar olib boradi.",
+                                                     "scientificWorks":  [
+                                                                             "Ekonometrika bo\u0027yicha 14 ta ilmiy maqola",
+                                                                             "Ma\u0027lumotlar tahlili asoslari darsligi hammuallifi",
+                                                                             "Python yordamida iqtisodiy tahlil bo\u0027yicha metodik qo\u0027llanma"
+                                                                         ],
+                                                     "achievements":  [
+                                                                          "2024-yil Eng yaxshi yosh pedagog tanlovi sovrindori",
+                                                                          "Xalqaro seminarlar seriyasida trener",
+                                                                          "Talabalar ilmiy to\u0027garagi rahbari"
+                                                                      ]
+                                                 }
+                                             ]
+                        },
+                        {
+                            "id":  2,
+                            "name":  "Moliya va bank ishi",
+                            "head":  "Prof. A. Yusupov",
+                            "teachers":  12,
+                            "students":  450,
+                            "description":  "Moliyaviy bozorlar, bank tizimi, investitsiyalar, sug\u0027urta bo\u0027yicha tadqiqotlar. Zamonaviy moliyaviy texnologiyalar.",
+                            "teachersList":  [
+                                                 {
+                                                     "name":  "Prof. A. Yusupov",
+                                                     "degree":  "Iqtisod fanlari doktori",
+                                                     "specialty":  "Bank ishi"
+                                                 },
+                                                 {
+                                                     "name":  "DoГ§. F. Fayziyev",
+                                                     "degree":  "Iqtisod fanlari nomzodi",
+                                                     "specialty":  "Moliyaviy menejment"
+                                                 },
+                                                 {
+                                                     "name":  "DoГ§. Z. Zokirov",
+                                                     "degree":  "Iqtisod fanlari nomzodi",
+                                                     "specialty":  "Investitsiyalar"
+                                                 },
+                                                 {
+                                                     "name":  "O\u0027qituvchi K. Karimov",
+                                                     "degree":  "PhD",
+                                                     "specialty":  "Fintech"
+                                                 }
+                                             ]
+                        },
+                        {
+                            "id":  3,
+                            "name":  "Buxgalteriya hisobi va audit",
+                            "head":  "DoГ§. M. Qodirova",
+                            "teachers":  10,
+                            "students":  400,
+                            "description":  "Buxgalteriya hisobi, soliq hisobi, moliyaviy hisobotlar, audit xizmatlari bo\u0027yicha ilmiy ishlar. Xalqaro buxgalteriya standartlari.",
+                            "teachersList":  [
+                                                 {
+                                                     "name":  "DoГ§. M. Qodirova",
+                                                     "degree":  "Iqtisod fanlari nomzodi",
+                                                     "specialty":  "Buxgalteriya hisobi"
+                                                 },
+                                                 {
+                                                     "name":  "DoГ§. R. Rustamov",
+                                                     "degree":  "Iqtisod fanlari nomzodi",
+                                                     "specialty":  "Audit"
+                                                 },
+                                                 {
+                                                     "name":  "O\u0027qituvchi L. Lutfullayeva",
+                                                     "degree":  "PhD",
+                                                     "specialty":  "Soliq hisobi"
+                                                 },
+                                                 {
+                                                     "name":  "O\u0027qituvchi D. Davronov",
+                                                     "degree":  "PhD",
+                                                     "specialty":  "Xalqaro standartlar"
+                                                 }
+                                             ]
+                        },
+                        {
+                            "id":  4,
+                            "name":  "Tadbirkorlik va marketing",
+                            "head":  "Prof. T. Tursunov",
+                            "teachers":  8,
+                            "students":  300,
+                            "description":  "Kichik va o\u0027rta biznesni rivojlantirish, marketing strategiyalari, innovatsion g\u0027oyalar bo\u0027yicha tadqiqotlar.",
+                            "teachersList":  [
+                                                 {
+                                                     "name":  "Prof. T. Tursunov",
+                                                     "degree":  "Iqtisod fanlari doktori",
+                                                     "specialty":  "Tadbirkorlik"
+                                                 },
+                                                 {
+                                                     "name":  "DoГ§. G. G\u0027aniyev",
+                                                     "degree":  "Iqtisod fanlari nomzodi",
+                                                     "specialty":  "Marketing"
+                                                 },
+                                                 {
+                                                     "name":  "O\u0027qituvchi B. Bobojonov",
+                                                     "degree":  "PhD",
+                                                     "specialty":  "Startaplar"
+                                                 },
+                                                 {
+                                                     "name":  "O\u0027qituvchi H. Hamidova",
+                                                     "degree":  "PhD",
+                                                     "specialty":  "Brend menejmenti"
+                                                 }
+                                             ]
+                        },
+                        {
+                            "id":  5,
+                            "name":  "Xalqaro iqtisodiy munosabatlar",
+                            "head":  "Prof. J. Jabborov",
+                            "teachers":  7,
+                            "students":  250,
+                            "description":  "Xalqaro savdo, global iqtisodiyot, xalqaro moliya bozorlari bo\u0027yicha tadqiqotlar. Tashqi iqtisodiy siyosat.",
+                            "teachersList":  [
+                                                 {
+                                                     "name":  "Prof. J. Jabborov",
+                                                     "degree":  "Iqtisod fanlari doktori",
+                                                     "specialty":  "Xalqaro iqtisodiyot"
+                                                 },
+                                                 {
+                                                     "name":  "DoГ§. O. Orifov",
+                                                     "degree":  "Iqtisod fanlari nomzodi",
+                                                     "specialty":  "Xalqaro savdo"
+                                                 },
+                                                 {
+                                                     "name":  "O\u0027qituvchi P. Po\u0027latov",
+                                                     "degree":  "PhD",
+                                                     "specialty":  "Global moliya"
+                                                 },
+                                                 {
+                                                     "name":  "O\u0027qituvchi Y. Yo\u0027ldosheva",
+                                                     "degree":  "PhD",
+                                                     "specialty":  "Iqtisodiy integratsiya"
+                                                 }
+                                             ]
+                        }
+                    ],
+    "campus":  {
+                   "clubs":  [
+                                 {
+                                     "name":  "Yosh iqtisodchilar klubi",
+                                     "icon":  "chart-bar",
+                                     "description":  "Haftada 1 marta yig\u0027ilishlar, seminar va treninglar. Iqtisodiy masalalar muhokamasi.",
+                                     "members":  120,
+                                     "meeting":  "Har chorakshanba, 16:00"
+                                 },
+                                 {
+                                     "name":  "Zakovat jamoasi",
+                                     "icon":  "brain",
+                                     "description":  "Intellektual musobaqalar, olimpiadalar. Universitet va respublika miqyosidagi tanlovlar.",
+                                     "members":  50,
+                                     "meeting":  "Har payshanba, 15:00"
+                                 },
+                                 {
+                                     "name":  "Debat klubi",
+                                     "icon":  "comments",
+                                     "description":  "Ijtimoiy-iqtisodiy mavzularda munozaralar. Nutq va muloqot mahoratini oshirish.",
+                                     "members":  80,
+                                     "meeting":  "Har seshanba, 17:00"
+                                 },
+                                 {
+                                     "name":  "Sport klublari",
+                                     "icon":  "volleyball-ball",
+                                     "description":  "Voleybol, basketbol, futbol jamoalari. Universitet chempionatlari.",
+                                     "members":  200,
+                                     "meeting":  "Har kuni, 18:00"
+                                 }
+                             ],
+                   "facilities":  [
+                                      {
+                                          "name":  "Yotoqxona",
+                                          "icon":  "home",
+                                          "description":  "350 o\u0027rinli, zamonaviy sharoitlar. Har bir xonada internet, konditsioner, o\u0027qish joyi."
+                                      },
+                                      {
+                                          "name":  "Kutubxona",
+                                          "icon":  "book",
+                                          "description":  "50,000 dan ortiq adabiyotlar. Elektron kutubxona, kompyuterlar, o\u0027qish zallari."
+                                      },
+                                      {
+                                          "name":  "Sport majmuasi",
+                                          "icon":  "dumbbell",
+                                          "description":  "Sport zallari, fitnes uskunalari, ochiq maydonlar. Professional murabbiylar."
+                                      },
+                                      {
+                                          "name":  "O\u0027quv laboratoriyalari",
+                                          "icon":  "flask",
+                                          "description":  "Zamonaviy kompyuterlar, iqtisodiyot dasturlari, ma\u0027lumotlar bazalari."
+                                      }
+                                  ],
+                   "achievements":  [
+                                        {
+                                            "title":  "Respublika iqtisodiyot olimpiadasi",
+                                            "year":  2023,
+                                            "result":  "1-o\u0027rin",
+                                            "description":  "3 talaba g\u0027olib bo\u0027ldi, 5 nafar sovrindor"
+                                        },
+                                        {
+                                            "title":  "Xalqaro moliya konkursi",
+                                            "year":  2022,
+                                            "result":  "2-o\u0027rin",
+                                            "description":  "5 ishtirokchi, 3 medal (1 oltin, 2 kumush)"
+                                        },
+                                        {
+                                            "title":  "Startap festivali",
+                                            "year":  2023,
+                                            "result":  "Eng yaxshi loyiha",
+                                            "description":  "Talabalar startapi 10 million so\u0027m grant yutdi"
+                                        },
+                                    {
+                                        "title":  "Ilmiy konferensiya",
+                                        "year":  2024,
+                                        "result":  "3 ta eng yaxshi maqola",
+                                        "description":  "Talabalar ilmiy ishlari respublika konferensiyasida e\u0027tirof etildi"
+                                    }
+                                    ],
+                   "upcomingEvents":  [
+                                         {
+                                             "day":  "15",
+                                             "month":  "Sentyabr",
+                                             "title":  "\u0022Yosh iqtisodchilar\u0022 klubining ochilishi",
+                                             "description":  "Asosiy binoda, 16:00 da",
+                                             "image":  "univer.jpg"
+                                         },
+                                         {
+                                             "day":  "25",
+                                             "month":  "Sentyabr",
+                                             "title":  "Xalqaro moliya haftaligi",
+                                             "description":  "4 kunlik seminar va treninglar",
+                                             "image":  "img.png"
+                                         },
+                                         {
+                                             "day":  "05",
+                                             "month":  "Oktyabr",
+                                             "title":  "Biznes g\u0027oyalar tanlovi",
+                                             "description":  "Innovatsion startaplar taqdimoti",
+                                             "image":  "img2.png"
+                                         }
+                                     ]
+               },
+    "contact":  {
+                    "admission":  {
+                                      "phone":  "+998 76 123 45 70",
+                                      "email":  "admission@tdu-iqtisod.uz",
+                                      "hours":  "9:00-18:00 (Dushanba-Shanba)",
+                                      "address":  "Termiz shahri, Qabul komissiyasi, 1-qavat"
+                                  },
+                    "deanOffice":  {
+                                       "phone":  "+998 76 123 45 67",
+                                       "email":  "dekan@tdu-iqtisod.uz",
+                                       "hours":  "10:00-12:00 (Dushanba-Chorshanba)",
+                                       "address":  "Termiz shahri, Fakultet binosi, 3-qavat"
+                                   },
+                    "international":  {
+                                          "phone":  "+998 76 123 45 68",
+                                          "email":  "international@tdu-iqtisod.uz",
+                                          "hours":  "9:00-17:00 (Dushanba-Juma)",
+                                          "address":  "Termiz shahri, Xalqaro bo\u0027lim, 2-qavat"
+                                      }
+                },
+    "fakultet":  {
+                     "nomi":  "Termiz Davlat Universiteti - Iqtisodiyot Fakulteti",
+                     "qisqaTavsif":  "O\u0027zbekistonning janubiy hududidagi yetakchi iqtisodiy ta\u0027lim markazi",
+                     "yil":  1960,
+                     "manzil":  "Termiz shahri, Universitet ko\u0027chasi, 123",
+                     "telefon":  "+998 76 123 45 67",
+                     "email":  "iqtisodiyot@termizuni.uz",
+                     "vebsayt":  "https://iqtisodiyot.termizuni.uz"
+                 },
+    "tarix":  {
+                  "asosSolingan":  1960,
+                  "asoschilar":  [
+                                     "Akademik M. Mamatov",
+                                     "Prof. S. Yusupov"
+                                 ],
+                  "tarixiyMaqola":  "<p>1992-yil O\u2018zbekiston Respublikasining Prezidenti farmoni bilan Respublikamizdagi barcha Pedagogika institutlari universitetga aylanishi munosabati bilan Iqtisodiyot ta\u2019lim yo\u2018nalishi ochildi. 1992-yil Iqtisodiyot mutaxassisligi geografiya mutaxassisligi bilan birlashtirilib, Iqtisodiyot-geografiya fakulteti tashkil etildi.</p>\n<p>1993-1994 o\u2018quv yilida Moliya - kredit mutaxassisligi ochilib, mazkur fakultet talabalar soni ko\u2018paydi. 1995-yil Iqtisodiyot-geografiya fakultetidan Moliya-menejment fakulteti ajralib chiqdi. Shu yildan Iqtisodiyot fakulteti ham alohida fakultet sifatida faoliyat yurita boshladi. 2004 yil 8 iyuldagi Termiz davlat universitetining Ilmiy Kengash qarori hamda universitet rektori buyrug\u2018i bilan ikkita fakultet birlashtirilib, Iqtisodiyot-moliya fakulteti tashkil etildi. 2007 yil 5 iyulda O\u2018zbekiston Respublikasi Oliy va o\u2018rta maxsus ta\u2019lim vaziri birinchi o\u2018rinbosari A.Parpiyevning ko\u2018rsatmasi va 2007 yil 30 noyabrdagi Universitet Ilmiy Kengash qarori hamda 2007 yil 28 dekabrdagi universitet rektor buyrug\u2018iga muvofiq Iqtisodiyot-moliya fakultetining nomi Ijtimoiy-iqtisodiy fakultetiga o\u2018zgartirildi. 2010 yil avgust oyidagi universitet Ilmiy Kengash qaroriga asosan Iqtisodiyot fakulteti deb nomlandi. 2015 yil sentabr oyidan boshlab, fakultetning nomi Ijtimoiy-iqtisodiy fakultet bo\u2018lib o\u2018zgargan. 2018 yil sentyabr oyidan boshlab fakultetning nomi Iqtisodiyot va turizm fakulteti deb atala boshlandi.</p>\n<p>Ushbu davrlarda fakultetga: professor U.U.Umarov, professor A.A.Ro\u2018ziyev, dotsent E.X.Avazov, dotsent B.J.Jo\u2019rayev, dotsent A.M.Qoraxonov, dotsent A.S.Oltiyev, dotsent O.X.Xatamov, dotsent A.O.Ro\u2018ziyev, dotsent M.A.Gadayshayev, dotsent F.X.Bahromov, i.f.n A.A.Avliyaqulov, dotsent E.X.Avazov, dotsent B.B.Imanov, i.f.n. A.E.Absamatov, dotsent M.A.Gadayshayev, Z.O.Samatov, i.f.n. A.E.Absamatovlar rahbarlik qildi.</p>",
+                  "muhimVoqealar":  [
+                                        {
+                                            "yil":  1960,
+                                            "voqea":  "Iqtisodiyot fakulteti asos solindi"
+                                        },
+                                        {
+                                            "yil":  2000,
+                                            "voqea":  "\u0027Moliya va kredit\u0027, \u0027Bank ishi\u0027 yo\u0027nalishlari ochildi"
+                                        },
+                                        {
+                                            "yil":  2004,
+                                            "voqea":  "\u0027Buxgalteriya hisobi\u0027 yo\u0027nalishi joriy etildi"
+                                        },
+                                        {
+                                            "yil":  2010,
+                                            "voqea":  "\u0027Turizm iqtisodiyoti\u0027 va \u0027Xalqaro iqtisodiy munosabatlar\u0027 yo\u0027nalishlari qo\u0027shildi"
+                                        },
+                                        {
+                                            "yil":  2020,
+                                            "voqea":  "Zamonaviy kompyuter klassi va elektron kutubxona ochildi"
+                                        }
+                                    ],
+                  "ilmiyXodimlar":  {
+                                        "fanDoktorlari":  5,
+                                        "fanNomzodlari":  8,
+                                        "dotsentlar":  12,
+                                        "kattaOqituvchilar":  25,
+                                        "assistentlar":  18
+                                    }
+              },
+    "missiya":  {
+                    "missiyaMatni":  "Zamonaviy bilim va amaliy ko\u0027nikmalarga ega, raqobatbardosh mutaxassislar tayyorlash. Iqtisodiy sohada innovatsion yondashuvlarni rivojlantirish, tadqiqot va ilmiy faoliyatni olib borish hamda jamiyat rivojiga hissa qo\u0027shish.",
+                    "asosiyMagoratlar":  [
+                                             "Yuqori malakali mutaxassislar tayyorlash",
+                                             "Ilmiy tadqiqotlarni rivojlantirish",
+                                             "Xalqaro hamkorlikni kengaytirish",
+                                             "Jamiyat ehtiyojlariga javob berish"
+                                         ]
+                },
+    "vizyon":  {
+                   "vizyonMatni":  "O\u0027zbekistonning janubiy hududidagi yetakchi iqtisodiy ta\u0027lim markaziga aylanish, xalqaro miqyosda tan olingan mutaxassislar tayyorlash va iqtisodiy bilimlarni rivojlantirishda yetakchi o\u0027rinni egallash.",
+                   "reytingMaqsadlari":  [
+                                             "Mintaqada 1-o\u0027rinni egallash",
+                                             "Xalqaro akkreditatsiyadan o\u0027tish",
+                                             "TOP-500 dunyo universitetlari qatoriga kirish"
+                                         ]
+               },
+    "qadriyatlar":  [
+                        {
+                            "nomi":  "Halollik va shaffoflik",
+                            "tavsif":  "Barcha faoliyatda ochiqlik va adolatni targ\u0027ib qilamiz",
+                            "rang":  "#1a5f7a"
+                        },
+                        {
+                            "nomi":  "Sifat va kasbiy mahorat",
+                            "tavsif":  "Oliy ta\u0027lim standartlariga qat\u0027iy rioya qilamiz",
+                            "rang":  "#57cc99"
+                        },
+                        {
+                            "nomi":  "Innovatsiya va o\u0027zgarishlarga ochiqlik",
+                            "tavsif":  "Yangi bilim va texnologiyalarni joriy etamiz",
+                            "rang":  "#ffd166"
+                        },
+                        {
+                            "nomi":  "Jamiyatga xizmat",
+                            "tavsif":  "O\u0027quvchilarimiz va hamjamiyatimiz rivojiga hissa qo\u0027shamiz",
+                            "rang":  "#ff6b6b"
+                        },
+                        {
+                            "nomi":  "Xalqaro hamkorlik",
+                            "tavsif":  "Dunyo universitetlari bilan aloqalarni mustahkamlaymiz",
+                            "rang":  "#6a0572"
+                        }
+                    ],
+    "rahbariyat":  [
+                        {
+                            "id":  1,
+                            "ism":  "Abdugʻaniyev Otabek Allajonovich",
+                            "lavozim":  "Iqtisodiyot fakulteti dekani",
+                            "mutaxassislik":  "Iqtisod fanlari doktori, professor",
+                            "qabulVaqti":  "Haftaning barcha ish kunlari 9:00 \u2014 12:00",
+                            "telefon":  "+99890 644-11-22",
+                            "email":  "genius7722@mail.ru",
+                            "telegram":  "+99890 644-11-22",
+                            "manzil":  "Termiz shahri, Universitet ko\u0027chasi, 123",
+                            "rasm":  "image/Annotation 2026-03-11 144032.png",
+                            "ilmiyDarajasi":  "Doktor",
+                            "ishTajribasi":  "25 yil",
+                            "qoshimchaMalumot":  "5 ta darslik va 50 dan ortiq ilmiy maqola muallifi"
+                        },
+                        {
+                            "id":  2,
+                            "ism":  "Sultonov Xudoyshukur G\u02bbayratovich",
+                            "lavozim":  "Fakultet registrator ofis menejeri",
+                            "qabulVaqti":  "Seshanba, Payshanba, Shanba: 13:00 \u2014 16:00",
+                            "telefon":  "+998931682525",
+                            "email":  "sultonovxudoyshukur@gmail.com",
+                            "telegram":  "+998937980859",
+                            "manzil":  "Termiz shahri, Universitet ko\u0027chasi, 123",
+                            "rasm":  "image/img.png",
+                            "ilmiyDarajasi":  "",
+                            "ishTajribasi":  "",
+                            "qoshimchaMalumot":  ""
+                        },
+                        {
+                            "id":  3,
+                            "ism":  "Norqulov Mirsaid To\u02bblqinovich",
+                            "lavozim":  "Fakultet registrator ofis menejeri",
+                            "qabulVaqti":  "Seshanba, Payshanba, Shanba: 13:00 \u2014 16:00",
+                            "telefon":  "+998945177776",
+                            "email":  "mirsaidtulkinovich.0770@gmail.com",
+                            "telegram":  "+998945177776",
+                            "manzil":  "Termiz shahri, Universitet ko\u0027chasi, 123",
+                            "rasm":  "image/img2.png",
+                            "ilmiyDarajasi":  "",
+                            "ishTajribasi":  "",
+                            "qoshimchaMalumot":  ""
+                        }
+                   ],
+    "yutuqlar":  [
+                     {
+                         "id":  1,
+                         "nomi":  "Eng yaxshi fakultet",
+                         "tavsif":  "2023-yilda universitet ichida o\u0027tkazilgan tanlov natijasiga ko\u0027ra",
+                         "yil":  2023,
+                         "icon":  "fas fa-award",
+                         "rang":  "#ffd166"
+                     },
+                     {
+                         "id":  2,
+                         "nomi":  "Xalqaro akkreditatsiya",
+                         "tavsif":  "AQSh va Yevropa tashkilotlari tomonidan akkreditatsiyadan o\u0027tgan",
+                         "yil":  2022,
+                         "icon":  "fas fa-globe",
+                         "rang":  "#57cc99"
+                     },
+                     {
+                         "id":  3,
+                         "nomi":  "Ilmiy ishlar soni",
+                         "tavsif":  "Yiliga 100 dan ortiq ilmiy maqola nashr etiladi",
+                         "yil":  2023,
+                         "icon":  "fas fa-graduation-cap",
+                         "rang":  "#1a5f7a"
+                     },
+                     {
+                         "id":  4,
+                         "nomi":  "Xalqaro talabalar",
+                         "tavsif":  "5 ta mamlakatdan kelgan xalqaro talabalar tahsil oladi",
+                         "yil":  2023,
+                         "icon":  "fas fa-user-friends",
+                         "rang":  "#ff6b6b"
+                     },
+                     {
+                         "id":  5,
+                         "nomi":  "Grantlar soni",
+                         "tavsif":  "Yiliga 10 dan ortiq xalqaro grantlar olinadi",
+                         "yil":  2023,
+                         "icon":  "fas fa-hand-holding-usd",
+                         "rang":  "#6a0572"
+                     },
+                     {
+                         "id":  6,
+                         "nomi":  "Bitiruvchilar ish bilan ta\u0027minlanishi",
+                         "tavsif":  "Bitiruvchilarning 95% ish bilan ta\u0027minlangan",
+                         "yil":  2023,
+                         "icon":  "fas fa-briefcase",
+                         "rang":  "#4ecdc4"
+                     }
+                 ],
+    "yoonalishlar":  [
+                         {
+                             "id":  1,
+                             "nomi":  "Iqtisodiyot",
+                             "daraja":  "Bakalavr",
+                             "muddat":  "4 yil",
+                             "stipendiya":  "Mavjud",
+                             "til":  [
+                                         "O\u0027zbek",
+                                         "Rus",
+                                         "Ingliz"
+                                     ]
+                         },
+                         {
+                             "id":  2,
+                             "nomi":  "Moliya va kredit",
+                             "daraja":  "Bakalavr",
+                             "muddat":  "4 yil",
+                             "stipendiya":  "Mavjud",
+                             "til":  [
+                                         "O\u0027zbek",
+                                         "Ingliz"
+                                     ]
+                         },
+                         {
+                             "id":  3,
+                             "nomi":  "Bank ishi",
+                             "daraja":  "Bakalavr",
+                             "muddat":  "4 yil",
+                             "stipendiya":  "Mavjud",
+                             "til":  [
+                                         "O\u0027zbek",
+                                         "Rus"
+                                     ]
+                         },
+                         {
+                             "id":  4,
+                             "nomi":  "Turizm iqtisodiyoti",
+                             "daraja":  "Bakalavr",
+                             "muddat":  "4 yil",
+                             "stipendiya":  "Mavjud",
+                             "til":  [
+                                         "O\u0027zbek",
+                                         "Ingliz"
+                                     ]
+                         }
+                     ],
+    "statistika":  {
+                       "talabalarSoni":  1250,
+                       "professorlarSoni":  45,
+                       "xalqaroHamkorlar":  12,
+                       "ilmiyLoyihalar":  35,
+                       "kutubxonaKitoblari":  25000
+                   },
+    "mission":  [
+                    {
+                        "title":  "Ta\u0027lim",
+                        "description":  "Yuqori malakali iqtisodiyot mutaxassislarini tayyorlash",
+                        "icon":  "fas fa-graduation-cap"
+                    },
+                    {
+                        "title":  "Innovatsiya",
+                        "description":  "Iqtisodiyot sohasida innovatsion yondashuvlarni rivojlantirish",
+                        "icon":  "fas fa-lightbulb"
+                    },
+                    {
+                        "title":  "Hamkorlik",
+                        "description":  "Tadbirkorlik va davlat organlari bilan yaqin hamkorlik",
+                        "icon":  "fas fa-handshake"
+                    },
+                    {
+                        "title":  "Jamiyat",
+                        "description":  "Iqtisodiy bilim va ko\u0027nikmalar orqali jamiyatga xizmat qilish",
+                        "icon":  "fas fa-users"
+                    }
+                ],
+    "leadership":  [
+                       {
+                           "name":  "Falonchi Falonchiyev",
+                           "position":  "Fakultet dekani",
+                           "degree":  "Iqtisodiyot fanlari doktori",
+                           "image":  "images/dean.jpg"
+                       },
+                       {
+                           "name":  "Ism Sharif",
+                           "position":  "O\u0027quv ishlari bo\u0027yicha dekan o\u0027rinbosari",
+                           "degree":  "Iqtisodiyot fanlari nomzodi",
+                           "image":  "images/vice-dean1.jpg"
+                       },
+                       {
+                           "name":  "Nomi Familiya",
+                           "position":  "Ilmiy ishlar bo\u0027yicha dekan o\u0027rinbosari",
+                           "degree":  "Iqtisodiyot fanlari nomzodi",
+                           "image":  "images/vice-dean2.jpg"
+                       }
+                   ],
+    "badges":  [
+                   {
+                       "title":  "Sifat sertifikati",
+                       "description":  "Xalqaro standartlarga moslik sertifikati",
+                       "icon":  "fas fa-award"
+                   },
+                   {
+                       "title":  "Eng yaxshi fakultet",
+                       "description":  "2022-yil universitet miqyosida",
+                       "icon":  "fas fa-trophy"
+                   },
+                   {
+                       "title":  "Innovatsion loyiha",
+                       "description":  "Ta\u0027lim sohasidagi innovatsion loyiha mukofoti",
+                       "icon":  "fas fa-medal"
+                   },
+                   {
+                       "title":  "Xalqaro hamkorlik",
+                       "description":  "Xalqaro universitetlar bilan faol hamkorlik",
+                       "icon":  "fas fa-globe-europe"
+                   }
+               ]
+}

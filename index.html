@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page_title">Termiz Davlat Universiteti - Iqtisodiyot Fakulteti</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap">
+</head>
+<body>
+    <!-- Loading screen -->
+    <div id="loading-container"></div>
+   
+    <!-- Header -->
+    <header id="header-container" class="header-container"></header>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particle" style="--i:1"></div>
+            <div class="particle" style="--i:2"></div>
+            <div class="particle" style="--i:3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-on-scroll">
+                    <span class="gradient-text" data-i18n="hero_title">Iqtisodiyot kelajagini biz bilan quring!</span>
+                </h1>
+                <p class="hero-subtitle animate-on-scroll" data-i18n="hero_subtitle">
+                    Zamonaviy bilim, amaliy ko'nikmalar, yorqin kelajak
+                </p>
+                <div class="hero-buttons animate-on-scroll">
+                    <a href="contact.html" class="btn btn-primary btn-lg">
+                        <i class="fas fa-file-signature"></i>
+                        <span data-i18n="contact_now">Hoziroq bog'laning</span>
+                    </a>
+                    <button id="watch-video" class="btn btn-outline btn-lg">
+                        <i class="fas fa-play-circle"></i>
+                        <span data-i18n="about_university">Universitet haqida</span>
+                    </button>
+                </div>
+            </div>
+            
+            
+            <!-- Stats will be loaded by JavaScript -->
+            <div id="hero-stats" class="hero-stats"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll" data-i18n="why_us">Nega aynan biz?</h2>
+            <p class="section-subtitle animate-on-scroll" data-i18n="faculty_advantages">Iqtisodiyot fakultetining afzalliklari</p>
+            
+            <div id="features-container" class="features-grid"></div>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <!-- <section id="quick-links" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Tez havolalar</h2>
+            
+            <div id="quick-links-container" class="quick-links-grid"></div>
+        </div>
+    </section> -->
+
+    <!-- News Section -->
+    <section id="news" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title animate-on-scroll" data-i18n="latest_news">So'nggi yangiliklar</h2>
+                <a href="#news" class="btn-link animate-on-scroll">
+                    <span data-i18n="news_view_all">Barchasini ko'rish</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div id="news-container" class="news-grid"></div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll" data-i18n="contact_admission">Aloqa va Qabul</h2>
+            <p class="section-subtitle animate-on-scroll" data-i18n="contact_subtitle">Biz bilan bog'laning yoki ro'yxatdan o'ting</p>
+            
+            <div id="contact-container" class="contact-grid"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer-container" class="footer-container"></footer>
+
+    <!-- JavaScript -->
+     <script src="js/academic.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

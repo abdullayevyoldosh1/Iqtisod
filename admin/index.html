@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        body {
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            background: linear-gradient(135deg, #eff6ff 0%, #e0f2fe 100%);
+        }
+        .login-card {
+            width: min(430px, 92vw);
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 18px 50px rgba(30, 41, 59, 0.08);
+        }
+        .login-card h1 {
+            font-size: 1.35rem;
+            margin-bottom: 8px;
+        }
+        .login-card p {
+            color: #6b7280;
+            margin-bottom: 14px;
+        }
+        .login-form {
+            display: grid;
+            gap: 10px;
+        }
+        .login-form input {
+            border: 1px solid #d1d5db;
+            border-radius: 10px;
+            padding: 11px 12px;
+        }
+        .captcha-row {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 8px;
+            align-items: center;
+        }
+        .captcha-code {
+            letter-spacing: 0.28em;
+            font-weight: 700;
+            text-align: center;
+            padding: 11px 10px;
+            border: 1px dashed #94a3b8;
+            border-radius: 10px;
+            background: #f8fafc;
+            user-select: none;
+        }
+        .captcha-refresh {
+            border: 1px solid #cbd5e1;
+            border-radius: 10px;
+            background: #fff;
+            padding: 11px 12px;
+            cursor: pointer;
+        }
+        .login-error {
+            display: none;
+            color: #b91c1c;
+            background: #fee2e2;
+            border: 1px solid #fecaca;
+            border-radius: 8px;
+            padding: 8px 10px;
+            font-size: 0.92rem;
+        }
+        .login-help {
+            margin-top: 12px;
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-card">
+        <h1>Admin panelga kirish</h1>
+        <p>Login, parol va tasdiqlash kodini kiriting</p>
+        <div class="login-error" id="loginError">Login, parol yoki kod noto'g'ri.</div>
+        <form id="loginForm" class="login-form">
+            <input type="text" id="adminLogin" placeholder="Login" required>
+            <input type="password" id="adminPassword" placeholder="Parol" required>
+            <div class="captcha-row">
+                <div class="captcha-code" id="captchaCode"></div>
+                <button type="button" class="captcha-refresh" id="refreshCaptcha" title="Yangi kod">
+                    <i class="fas fa-rotate"></i>
+                </button>
+            </div>
+            <input type="text" id="captchaInput" placeholder="6 xonali kodni kiriting" maxlength="6" required>
+            <button type="submit" class="btn btn-primary">Kirish</button>
+            <a href="../index.html" class="btn btn-outline">Orqaga qaytish</a>
+        </form>
+    </div>
+
+    <script>
+        const ADMIN_LOGIN = "abdullayev";
+        const ADMIN_PASSWORD = "01242006";
+        const AUTH_KEY = "admin_panel_auth";
+        let currentCaptcha = "";
+
+        if (sessionStorage.getItem(AUTH_KEY) === "ok") {
+            window.location.href = "panel.html";
+        }
+
+        function generateCaptcha() {
+            currentCaptcha = String(Math.floor(100000 + Math.random() * 900000));
+            document.getElementById("captchaCode").textContent = currentCaptcha;
+        }
+
+        document.getElementById("refreshCaptcha").addEventListener("click", generateCaptcha);
+
+        document.getElementById("loginForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const login = document.getElementById("adminLogin").value.trim();
+            const password = document.getElementById("adminPassword").value;
+            const captchaInput = document.getElementById("captchaInput").value.trim();
+            const error = document.getElementById("loginError");
+            error.style.display = "none";
+
+            if (login === ADMIN_LOGIN && password === ADMIN_PASSWORD && captchaInput === currentCaptcha) {
+                sessionStorage.setItem(AUTH_KEY, "ok");
+                window.location.href = "panel.html";
+                return;
+            }
+
+            error.style.display = "block";
+            document.getElementById("captchaInput").value = "";
+            generateCaptcha();
+        });
+
+        generateCaptcha();
+    </script>
+</body>
+</html>

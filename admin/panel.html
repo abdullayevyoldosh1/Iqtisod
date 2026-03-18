@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel | TDU Iqtisodiyot</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/panel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="admin-topbar">
+        <div class="container admin-topbar-inner">
+            <div>
+                <p class="admin-kicker">Boshqaruv paneli</p>
+                <h1>TDU Iqtisodiyot Admin</h1>
+            </div>
+            <div class="admin-actions">
+                <a class="btn btn-outline" href="../index.html">
+                    <i class="fas fa-globe"></i> Frontend
+                </a>
+                <button class="btn btn-outline" id="logoutBtn">
+                    <i class="fas fa-right-from-bracket"></i> Chiqish
+                </button>
+                <button class="btn btn-outline" id="exportBtn">
+                    <i class="fas fa-file-export"></i> data.json yuklab olish
+                </button>
+                <button class="btn btn-primary" id="saveBtn">
+                    <i class="fas fa-save"></i> Saqlash
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container admin-main">
+        <section class="stats-grid" id="statsGrid"></section>
+
+        <section class="panel-nav">
+            <button class="tab-btn active" data-tab="news">Yangiliklar</button>
+            <button class="tab-btn" data-tab="programs">Yo'nalishlar</button>
+            <button class="tab-btn" data-tab="departments">Kafedralar</button>
+            <button class="tab-btn" data-tab="leadership">Rahbariyat</button>
+            <button class="tab-btn" data-tab="teacher-info">O'qituvchilar ma'lumotlari</button>
+            <button class="tab-btn" data-tab="campus">Talabalar hayoti</button>
+            <button class="tab-btn" data-tab="contacts">Murojaatlar</button>
+        </section>
+
+        <section class="panel-card tab-content active" id="tab-news">
+            <div class="panel-head">
+                <h2>Yangiliklar boshqaruvi</h2>
+            </div>
+            <form id="newsForm" class="admin-form">
+                <input type="hidden" name="id" id="newsEditId">
+                <input type="text" name="title" placeholder="Sarlavha" required>
+                <input type="date" name="date" required>
+                <input type="text" name="category" placeholder="Kategoriya" required>
+                <input type="text" name="imageUrl" placeholder="Rasm URL yoki fayl nomi (ixtiyoriy)">
+                <input type="file" name="imageFile" accept="image/*">
+                <textarea name="description" placeholder="Yangilik matni" rows="3" required></textarea>
+                <div class="form-actions-row">
+                    <button type="submit" class="btn btn-primary" id="newsSubmitBtn">Qo'shish</button>
+                    <button type="button" class="btn btn-outline" id="newsCancelEditBtn" style="display:none;">Bekor qilish</button>
+                </div>
+            </form>
+            <div id="newsList"></div>
+        </section>
+
+        <section class="panel-card tab-content" id="tab-programs">
+            <div class="panel-head">
+                <h2>Ta'lim yo'nalishlari</h2>
+            </div>
+            <form id="programForm" class="admin-form admin-grid">
+                <input type="hidden" name="id" id="programEditId">
+                <select name="type" required>
+                    <option value="bachelor">Bakalavr</option>
+                    <option value="master">Magistr</option>
+                </select>
+                <select name="bachelorForm" id="bachelorForm">
+                    <option value="Kunduzgi">Kunduzgi</option>
+                    <option value="Kechki">Kechki</option>
+                    <option value="Masofaviy">Masofaviy</option>
+                    <option value="Sirtqi">Sirtqi</option>
+                </select>
+                <input type="text" name="name" placeholder="Yo'nalish nomi" required>
+                <input type="text" name="code" placeholder="Kod" required>
+                <input type="text" name="duration" placeholder="Muddat (4 yil)" required>
+                <input type="number" name="score" placeholder="O'tish bali" required>
+                <input type="number" name="seats" placeholder="O'rinlar soni" required>
+                <input type="text" name="department" placeholder="Kafedra" required>
+                <textarea name="description" placeholder="Tavsif" rows="3" required></textarea>
+                <textarea name="subjects" placeholder="O'qitiladigan fanlar (vergul yoki yangi qatorda)" rows="3"></textarea>
+                <textarea name="career" placeholder="Karyera imkoniyatlari (vergul yoki yangi qatorda)" rows="3"></textarea>
+                <div class="form-actions-row" style="grid-column: 1 / -1;">
+                    <button type="submit" class="btn btn-primary" id="programSubmitBtn">Qo'shish</button>
+                    <button type="button" class="btn btn-outline" id="programCancelEditBtn" style="display:none;">Bekor qilish</button>
+                </div>
+            </form>
+            <div id="programList"></div>
+        </section>
+
+        <section class="panel-card tab-content" id="tab-departments">
+            <div class="panel-head">
+                <h2>Kafedralar boshqaruvi</h2>
+            </div>
+            <form id="departmentForm" class="admin-form admin-grid">
+                <input type="hidden" name="id" id="departmentEditId">
+                <input type="text" name="name" placeholder="Kafedra nomi" required>
+                <input type="text" name="head" placeholder="Mudir" required>
+                <input type="number" name="teachers" placeholder="O'qituvchilar soni" required>
+                <input type="number" name="students" placeholder="Talabalar soni" required>
+                <textarea name="description" placeholder="Tavsif" rows="3" required></textarea>
+                <textarea name="teachersList" placeholder="Asosiy o'qituvchilar (har qatorda: Ism - Daraja)" rows="4"></textarea>
+                <div class="form-actions-row" style="grid-column: 1 / -1;">
+                    <button type="submit" class="btn btn-primary" id="departmentSubmitBtn">Qo'shish</button>
+                    <button type="button" class="btn btn-outline" id="departmentCancelEditBtn" style="display:none;">Bekor qilish</button>
+                </div>
+            </form>
+            <div id="departmentList"></div>
+        </section>
+
+        <section class="panel-card tab-content" id="tab-leadership">
+            <div class="panel-head">
+                <h2>Rahbariyat boshqaruvi</h2>
+            </div>
+            <form id="leadershipForm" class="admin-form admin-grid">
+                <input type="hidden" name="id" id="leadershipEditId">
+                <input type="text" name="name" placeholder="F.I.O" required>
+                <input type="text" name="position" placeholder="Lavozim" required>
+                <input type="text" name="degree" placeholder="Mutaxassislik / Ilmiy daraja" required>
+                <input type="text" name="reception" placeholder="Qabul vaqti (Dushanba 9:00-12:00)">
+                <input type="text" name="phone" placeholder="Telefon raqami">
+                <input type="email" name="email" placeholder="Email">
+                <input type="text" name="telegram" placeholder="Telegram">
+                <input type="text" name="address" placeholder="Manzil">
+                <input type="url" name="imageUrl" placeholder="Rasm URL (ixtiyoriy)">
+                <input type="file" name="imageFile" accept="image/*">
+                <div class="form-actions-row" style="grid-column: 1 / -1;">
+                    <button type="submit" class="btn btn-primary" id="leadershipSubmitBtn">Qo'shish</button>
+                    <button type="button" class="btn btn-outline" id="leadershipCancelEditBtn" style="display:none;">Bekor qilish</button>
+                </div>
+            </form>
+            <div id="leadershipList"></div>
+        </section>
+
+        <section class="panel-card tab-content" id="tab-teacher-info">
+            <div class="panel-head">
+                <h2>O'qituvchilar ma'lumotlari (Batafsil sahifa)</h2>
+            </div>
+            <form id="teacherInfoForm" class="admin-form admin-grid">
+                <input type="hidden" name="id" id="teacherInfoEditId">
+                <select name="departmentId" id="teacherInfoDepartment" required></select>
+                <input type="text" name="name" placeholder="F.I.O" required>
+                <input type="text" name="degree" placeholder="Ilmiy daraja" required>
+                <input type="text" name="specialty" placeholder="Mutaxassislik">
+                <input type="url" name="imageUrl" placeholder="Rasm URL (ixtiyoriy)">
+                <input type="file" name="imageFile" accept="image/*">
+                <textarea name="bio" placeholder="Qisqacha bio (Batafsil sahifa)" rows="3"></textarea>
+                <textarea name="scientificWorks" placeholder="Ilmiy ishlari (har qatorda yoki vergul bilan)" rows="3"></textarea>
+                <textarea name="achievements" placeholder="Yutuqlari (har qatorda yoki vergul bilan)" rows="3"></textarea>
+                <div class="form-actions-row" style="grid-column: 1 / -1;">
+                    <button type="submit" class="btn btn-primary" id="teacherInfoSubmitBtn">Qo'shish</button>
+                    <button type="button" class="btn btn-outline" id="teacherInfoCancelEditBtn" style="display:none;">Bekor qilish</button>
+                </div>
+            </form>
+            <div id="teacherInfoList"></div>
+        </section>
+
+        <section class="panel-card tab-content" id="tab-campus">
+            <div class="panel-head">
+                <h2>Talabalar hayoti: Klublar, Yutuqlar va Tadbirlar</h2>
+            </div>
+
+            <form id="clubForm" class="admin-form admin-grid">
+                <input type="hidden" name="id" id="clubEditId">
+                <input type="text" name="name" placeholder="Klub nomi" required>
+                <input type="text" name="icon" placeholder="Icon (masalan: chart-line)" required>
+                <input type="number" name="members" placeholder="A'zolar soni" required>
+                <textarea name="description" placeholder="Klub tavsifi" rows="3" required></textarea>
+                <div class="form-actions-row" style="grid-column: 1 / -1;">
+                    <button type="submit" class="btn btn-primary" id="clubSubmitBtn">Klub qo'shish</button>
+                    <button type="button" class="btn btn-outline" id="clubCancelEditBtn" style="display:none;">Bekor qilish</button>
+                </div>
+            </form>
+            <div id="clubList"></div>
+
+            <form id="achievementForm" class="admin-form admin-grid">
+                <input type="text" name="title" placeholder="Yutuq nomi" required>
+                <input type="number" name="year" placeholder="Yil (2026)" required>
+                <input type="text" name="result" placeholder="Natija (1-o'rin)" required>
+                <textarea name="description" placeholder="Yutuq tavsifi" rows="3" required></textarea>
+                <button type="submit" class="btn btn-primary">Yutuq qo'shish</button>
+            </form>
+            <div id="achievementList"></div>
+
+            <form id="eventForm" class="admin-form admin-grid" style="margin-top: 18px;">
+                <input type="text" name="day" placeholder="Kun (15)" required>
+                <input type="text" name="month" placeholder="Oy (Sentyabr)" required>
+                <input type="text" name="title" placeholder="Tadbir nomi" required>
+                <textarea name="description" placeholder="Tadbir tavsifi" rows="2" required></textarea>
+                <input type="url" name="imageUrl" placeholder="Rasm URL (ixtiyoriy)">
+                <input type="file" name="imageFile" accept="image/*">
+                <button type="submit" class="btn btn-primary">Tadbir qo'shish</button>
+            </form>
+            <div id="eventList"></div>
+        </section>
+
+        <section class="panel-card tab-content" id="tab-contacts">
+            <div class="panel-head">
+                <h2>Murojaatlar ro'yxati</h2>
+            </div>
+            <div id="contactList"></div>
+        </section>
+    </main>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="js/panel.js"></script>
+</body>
+</html>
