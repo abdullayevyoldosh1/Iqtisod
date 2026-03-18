@@ -1,0 +1,2 @@
+# Iqtisod
+Iqtisodiyot
